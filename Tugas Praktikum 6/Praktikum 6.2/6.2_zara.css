@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    flex-direction: column;
+    margin: 1cm;
+    font-size: 30px;
+}
+
+.wadah {
+    display: flex;
+}
+
+.wadah > a {
+    background-color: pink;
+    padding: 30px;
+    flex: 0.2;
+    min-height: 45vh;
+}
+
+.br_kanan {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.br_kanan > header {
+    background-color: khaki;
+    flex: 0.1;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    min-height: 15vh;
+}
+
+#b2 {
+    display: flex;
+}
+
+#b2 > article {
+    background-color: whitesmoke;
+    padding: 30px;
+    flex: 0.7;
+    min-height: 45vh;
+}
+
+#b2 > aside {
+    background-color: aqua;
+    flex: 0.3;
+    padding: 30px;
+    min-height: 60vh;
+}
+
+.br_kanan > footer {
+    background-color: khaki;
+    flex: 0.1;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    min-height: 15vh;
+}

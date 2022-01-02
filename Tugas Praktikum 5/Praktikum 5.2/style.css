@@ -1,0 +1,51 @@
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+html {
+    box-sizing: border-box;
+}
+
+[class*='box-']{
+    border: 1px solid black;
+}
+
+.box-green {
+    background-color: #aedd94;
+    padding: 9vh 40vw;
+}
+.wrapper{
+    margin-top: 2vh;
+    position: relative;
+    width: 99vw;
+    height: 37vh;
+}
+
+.box-yellow{
+    top: 1em;
+    position: absolute;
+    background-color: #f4eb49;
+    padding: 17.5vh 9.5vw;
+}
+
+.box-orange{
+    top: 1em;
+    right: 0em;
+    position: absolute;
+    background-color: #ff6624;
+    padding: 17.5vh 39vw;
+}
+
+.box-yellow-2 {
+    top: 1em;
+    position: absolute;
+    background-color: #f4eb49;
+    padding: 18vh 9.5vw;
+}
+.box-blue{
+    background-color: #4dd7fa;
+    top: 1em;
+    right: 0em;
+    position: absolute;
+    padding: 18vh 39vw;
+}

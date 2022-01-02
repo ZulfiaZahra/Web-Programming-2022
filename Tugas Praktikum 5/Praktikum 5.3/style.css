@@ -1,0 +1,70 @@
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+html {
+    box-sizing: border-box;
+}
+
+[class*='box-']{
+    border: 1px solid black;
+}
+.wrapper-1 {
+    position: relative;
+    width: 98vw;
+    height: 25vh;
+}
+.wrapper-2{
+    position: relative;
+    width: 98vw;
+    height: 60vh;
+}
+.box-yellow{
+    top: 1em;
+    position: absolute;
+    background-color: #f4eb49;
+    padding: 10vh 9.5vw;
+    left: 0em;
+}
+
+.box-orange{
+    top: 1em;
+    right: 0em;
+    position: absolute;
+    background-color: #ff6624;
+    padding: 10vh 39vw;
+}
+
+.box-green{
+    position: absolute;
+    left: 0;
+    padding: 30vh 9.5vw;
+    background-color: #aedd94;
+}
+
+.box-gray{
+    position: absolute;
+    left: 20vw;
+    padding: 30vh 29vw;
+    background-color: #d1d6db;
+}
+
+.box-blue{
+    position: absolute;
+    right: 0;
+    padding: 30vh 9.5vw;
+    background-color: #4DD7FA;
+}
+
+.wrapper-3{
+    position: relative;
+    width: 98vw;
+    height: 10vh;
+}
+
+.box-dark-blue{
+    margin-top: 1.5em;
+    position: absolute;
+    padding: 5vh 49vw;
+    background-color: #1464f6;
+}

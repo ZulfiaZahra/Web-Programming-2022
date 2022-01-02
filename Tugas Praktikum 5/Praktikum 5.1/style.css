@@ -1,0 +1,20 @@
+.box-yellow{
+    background-color: #f4eb49;
+}
+
+.box-orange{
+    background-color: #ff6624;
+}
+.box-green{
+    background-color: #aedd94;
+}
+.box-blue{
+    background-color: #4dd7fa;
+}
+
+[class*='box-']{
+    border: 1px solid black;
+    padding: 45vh 10vw;
+    float: left;
+    margin: 3vh 2.1vw;
+}
